@@ -3,7 +3,7 @@ import PortfolioHome from './PortfolioHome';
 
 const Portfolio = (props) => (
   <div>
-  portfolio {props.match.params.id}
+    <h1>portfolio {props.match.params.id}</h1>
   </div>
 );
 
